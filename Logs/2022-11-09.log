@@ -1,0 +1,30 @@
+2022-11-09 23:20:15.725 [main] INFO  com.employeesAPI.base.TestBase - Started TC001_GET_All_Employees testcase
+2022-11-09 23:20:20.270 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+2022-11-09 23:23:44.703 [main] INFO  com.employeesAPI.base.TestBase - Started TC001_GET_All_Employees testcase
+2022-11-09 23:23:47.925 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+2022-11-09 23:32:42.801 [main] INFO  com.employeesAPI.base.TestBase - Started TC001_GET_All_Employees testcase
+2022-11-09 23:32:45.890 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+2022-11-09 23:32:45.931 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+2022-11-09 23:32:45.935 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 200 OK
+2022-11-09 23:32:45.963 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code
+2022-11-09 23:40:28.878 [main] INFO  com.employeesAPI.base.TestBase - Started TC001_GET_All_Employees testcase
+2022-11-09 23:40:31.901 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+2022-11-09 23:40:31.953 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+2022-11-09 23:40:31.964 [main] INFO  com.employeesAPI.base.TestBase - Response Time is: 1401
+2022-11-09 23:40:31.984 [main] INFO  com.employeesAPI.base.TestBase - Checking Status Line
+2022-11-09 23:40:31.985 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 429 Too Many Requests
+2022-11-09 23:40:32.064 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code
+2022-11-09 23:41:18.806 [main] INFO  com.employeesAPI.base.TestBase - Started TC001_GET_All_Employees testcase
+2022-11-09 23:41:21.766 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+2022-11-09 23:41:21.819 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+2022-11-09 23:41:21.832 [main] INFO  com.employeesAPI.base.TestBase - Response Time is: 1396
+2022-11-09 23:41:21.840 [main] INFO  com.employeesAPI.base.TestBase - Checking Status Line
+2022-11-09 23:41:21.841 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 429 Too Many Requests
+2022-11-09 23:41:21.880 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code
+2022-11-09 23:41:34.150 [main] INFO  com.employeesAPI.base.TestBase - Started TC001_GET_All_Employees testcase
+2022-11-09 23:41:37.102 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+2022-11-09 23:41:37.148 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+2022-11-09 23:41:37.151 [main] INFO  com.employeesAPI.base.TestBase - Response Time is: 1415
+2022-11-09 23:41:37.157 [main] INFO  com.employeesAPI.base.TestBase - Checking Status Line
+2022-11-09 23:41:37.157 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 200 OK
+2022-11-09 23:41:37.163 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code

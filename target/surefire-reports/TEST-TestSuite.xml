@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.775" tests="38" errors="0" skipped="8" failures="7">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Sheetal\QA_training\eclipse-workspace-qa\RestAssuredAPITesting_Employee_Project\target\test-classes;C:\Sheetal\QA_training\eclipse-workspace-qa\RestAssuredAPITesting_Employee_Project\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire10690010348535215827\surefirebooter-20221110174825449_3.jar C:\Windows\Temp\surefire10690010348535215827 2022-11-10T17-48-24_048-jvmRun1 surefire-20221110174825449_1tmp surefire_0-20221110174825449_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Sheetal\QA_training\eclipse-workspace-qa\RestAssuredAPITesting_Employee_Project\target\test-classes;C:\Sheetal\QA_training\eclipse-workspace-qa\RestAssuredAPITesting_Employee_Project\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Sheetal\QA_training\eclipse-workspace-qa\RestAssuredAPITesting_Employee_Project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire10690010348535215827\surefirebooter-20221110174825449_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35-LTS-2724"/>
+    <property name="user.name" value="DESKTOP-346RFLV$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="C:\Sheetal\QA_training\eclipse-workspace-qa\RestAssuredAPITesting_Employee_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\mgupt\Downloads\WINDOWS.X64_193000_db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\oracle\product\11.2.0\dbhome_1\BIN;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\apache-maven-3.8.6\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-LTS-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="checkContentEncoding" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.066">
+    <system-out><![CDATA[17:48:29.950 [main] INFO  com.employeesAPI.base.TestBase - Started TC001_GET_All_Employees testcase
+Test Started..checkContentEncoding
+17:48:38.314 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Encoding
+17:48:38.315 [main] INFO  com.employeesAPI.base.TestBase - Content-Encoding is: gzip
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.008">
+    <failure message="Cannot parse null string" type="java.lang.NumberFormatException"><![CDATA[java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.employeesAPI.testcases.TC001_GET_All_Employees.checkContentLength(TC001_GET_All_Employees.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Test Started..checkContentLength
+17:48:38.387 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Length
+17:48:38.388 [main] INFO  com.employeesAPI.base.TestBase - Content-Length is: null
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.008">
+    <system-out><![CDATA[Test Started..checkContentType
+17:48:38.396 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Type
+17:48:38.397 [main] INFO  com.employeesAPI.base.TestBase - Content type is: application/json
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.009">
+    <system-out><![CDATA[Test Started..checkResponseTime
+17:48:38.403 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+17:48:38.408 [main] INFO  com.employeesAPI.base.TestBase - Response Time is: 1537
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.005">
+    <system-out><![CDATA[Test Started..checkServer
+17:48:38.412 [main] INFO  com.employeesAPI.base.TestBase - Checking Server Type
+17:48:38.413 [main] INFO  com.employeesAPI.base.TestBase - Server is: nginx/1.21.6
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.004">
+    <system-out><![CDATA[Test Started..checkStatusLine
+17:48:38.419 [main] INFO  com.employeesAPI.base.TestBase - Checking Status Line
+17:48:38.420 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="checkSuccessCode" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.004">
+    <system-out><![CDATA[Test Started..checkSuccessCode
+17:48:38.425 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeesAPI.testcases.TC001_GET_All_Employees" time="0.034">
+    <system-out><![CDATA[Test Started..checkResponseBody
+17:48:38.428 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeesAPI.testcases.TC002_GET_Single_Employee_Record" time="0.006">
+    <failure message="Cannot parse null string" type="java.lang.NumberFormatException"><![CDATA[java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.employeesAPI.testcases.TC002_GET_Single_Employee_Record.checkContentLength(TC002_GET_Single_Employee_Record.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[17:48:38.463 [main] INFO  com.employeesAPI.base.TestBase - Finished TC001_GET_All_Employees testcase
+17:48:38.468 [main] INFO  com.employeesAPI.base.TestBase - Started TC002_GET_Single_Employee_Record testcase
+Test Started..checkContentLength
+17:48:43.869 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Length
+17:48:43.870 [main] INFO  com.employeesAPI.base.TestBase - Content-Length is: null
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeesAPI.testcases.TC002_GET_Single_Employee_Record" time="0.03">
+    <failure message="expected [application/json] but found [text/html; charset=UTF-8]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.employeesAPI.testcases.TC002_GET_Single_Employee_Record.checkContentType(TC002_GET_Single_Employee_Record.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Test Started..checkContentType
+17:48:43.876 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Type
+17:48:43.877 [main] INFO  com.employeesAPI.base.TestBase - Content type is: text/html; charset=UTF-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeesAPI.testcases.TC002_GET_Single_Employee_Record" time="0.004">
+    <system-out><![CDATA[Test Started..checkResponseTime
+17:48:43.906 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+17:48:43.907 [main] INFO  com.employeesAPI.base.TestBase - Response Time is: 380
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.employeesAPI.testcases.TC002_GET_Single_Employee_Record" time="0.007">
+    <system-out><![CDATA[Test Started..checkServer
+17:48:43.911 [main] INFO  com.employeesAPI.base.TestBase - Checking Server Type
+17:48:43.912 [main] INFO  com.employeesAPI.base.TestBase - Server is: nginx/1.21.6
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeesAPI.testcases.TC002_GET_Single_Employee_Record" time="0.005">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.employeesAPI.testcases.TC002_GET_Single_Employee_Record.checkStatusLine(TC002_GET_Single_Employee_Record.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Test Started..checkStatusLine
+17:48:43.919 [main] INFO  com.employeesAPI.base.TestBase - Checking Status Line
+17:48:43.920 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="checkSuccessCode" classname="com.employeesAPI.testcases.TC002_GET_Single_Employee_Record" time="0.004">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [429]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.employeesAPI.testcases.TC002_GET_Single_Employee_Record.checkSuccessCode(TC002_GET_Single_Employee_Record.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Test Started..checkSuccessCode
+17:48:43.925 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeesAPI.testcases.TC002_GET_Single_Employee_Record" time="0.09">
+    <system-out><![CDATA[Test Started..checkResponseBody
+17:48:43.932 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+17:48:43.945 [main] INFO  com.employeesAPI.base.TestBase - Response body is: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeesAPI.testcases.TC003_POST_New_Employee_Record" time="0.003">
+    <system-out><![CDATA[17:48:43.949 [main] INFO  com.employeesAPI.base.TestBase - Finished TC002_GET_Single_Employee_Record testcase
+17:48:43.951 [main] INFO  com.employeesAPI.base.TestBase - *************Started TC003_POST_New_Employee_Record
+Test Started..checkContentLength
+17:48:47.370 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Length
+17:48:47.371 [main] INFO  com.employeesAPI.base.TestBase - Content-Length is: 129
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeesAPI.testcases.TC003_POST_New_Employee_Record" time="0.012">
+    <system-out><![CDATA[Test Started..checkContentType
+17:48:47.376 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Type
+17:48:47.377 [main] INFO  com.employeesAPI.base.TestBase - Content type is: application/json
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeesAPI.testcases.TC003_POST_New_Employee_Record" time="0.004">
+    <system-out><![CDATA[Test Started..checkResponseTime
+17:48:47.387 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+17:48:47.389 [main] INFO  com.employeesAPI.base.TestBase - Response Time is: 385
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.employeesAPI.testcases.TC003_POST_New_Employee_Record" time="0.028">
+    <system-out><![CDATA[Test Started..checkServer
+17:48:47.394 [main] INFO  com.employeesAPI.base.TestBase - Checking Server Type
+17:48:47.419 [main] INFO  com.employeesAPI.base.TestBase - Server is: Apache
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeesAPI.testcases.TC003_POST_New_Employee_Record" time="0.003">
+    <system-out><![CDATA[Test Started..checkStatusLine
+17:48:47.421 [main] INFO  com.employeesAPI.base.TestBase - Checking Status Line
+17:48:47.422 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="checkSuccessCode" classname="com.employeesAPI.testcases.TC003_POST_New_Employee_Record" time="0.009">
+    <system-out><![CDATA[Test Started..checkSuccessCode
+17:48:47.424 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeesAPI.testcases.TC003_POST_New_Employee_Record" time="0.002">
+    <system-out><![CDATA[Test Started..checkResponseBody
+17:48:47.427 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentEncoding" classname="com.employeesAPI.testcases.TC004_PUT_Employee_Record" time="0.012">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.employeesAPI.testcases.TC004_PUT_Employee_Record.checkContentEncoding(TC004_PUT_Employee_Record.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[17:48:47.433 [main] INFO  com.employeesAPI.base.TestBase - Finished Started TC003_POST_New_Employee_Record****************
+17:48:47.440 [main] INFO  com.employeesAPI.base.TestBase - *************TC004_PUT_Employee_Record**
+Test Started..checkContentEncoding
+17:48:50.870 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Encoding
+17:48:50.870 [main] INFO  com.employeesAPI.base.TestBase - Content-Encoding is: null
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeesAPI.testcases.TC004_PUT_Employee_Record" time="0.021">
+    <system-out><![CDATA[Test Started..checkContentLength
+17:48:50.873 [main] INFO  com.employeesAPI.base.TestBase - Checking Content-Length
+17:48:50.882 [main] INFO  com.employeesAPI.base.TestBase - Content-Length is: 121
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeesAPI.testcases.TC004_PUT_Employee_Record" time="0.002">
+    <system-out><![CDATA[Test Started..checkResponseTime
+17:48:50.885 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Time
+17:48:50.885 [main] INFO  com.employeesAPI.base.TestBase - Response Time is: 387
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.employeesAPI.testcases.TC004_PUT_Employee_Record" time="0.003">
+    <system-out><![CDATA[Test Started..checkServer
+17:48:50.890 [main] INFO  com.employeesAPI.base.TestBase - Checking Server Type
+17:48:50.891 [main] INFO  com.employeesAPI.base.TestBase - Server is: Apache
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeesAPI.testcases.TC004_PUT_Employee_Record" time="0.005">
+    <system-out><![CDATA[Test Started..checkStatusLine
+17:48:50.897 [main] INFO  com.employeesAPI.base.TestBase - Checking Status Line
+17:48:50.900 [main] INFO  com.employeesAPI.base.TestBase - Status line is: HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="checkSuccessCode" classname="com.employeesAPI.testcases.TC004_PUT_Employee_Record" time="0.001">
+    <system-out><![CDATA[Test Started..checkSuccessCode
+17:48:50.902 [main] INFO  com.employeesAPI.base.TestBase - Checking Success Code
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeesAPI.testcases.TC004_PUT_Employee_Record" time="0.001">
+    <system-out><![CDATA[Test Started..checkResponseBody
+17:48:50.905 [main] INFO  com.employeesAPI.base.TestBase - Checking Response Body
+17:48:50.906 [main] INFO  com.employeesAPI.base.TestBase - Response Body is: {"status":"success","data":{"name":"gcBk","salary":"7667","age":"48"},"message":"Successfully! Record has been updated."}
+]]></system-out>
+  </testcase>
+  <testcase name="getAllEmployees" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0.77">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at com.employeesAPI.testcases.TC005_DELETE_Employee_Record.getAllEmployees(TC005_DELETE_Employee_Record.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 34 more
+]]></failure>
+    <system-out><![CDATA[17:48:50.909 [main] INFO  com.employeesAPI.base.TestBase - Finished TC004_PUT_Employee_Record**************
+17:48:50.914 [main] INFO  com.employeesAPI.base.TestBase - Started TC005_DELETE_Employee_Record Testcase
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+    <system-out><![CDATA[Test Started..checkContentLength
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+    <system-out><![CDATA[Test Started..checkContentType
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+    <system-out><![CDATA[Test Started..checkResponseTime
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+    <system-out><![CDATA[Test Started..checkServer
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+    <system-out><![CDATA[Test Started..checkStatusLine
+]]></system-out>
+  </testcase>
+  <testcase name="checkSuccessCode" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+    <system-out><![CDATA[Test Started..checkSuccessCode
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+    <system-out><![CDATA[Test Started..checkResponseBody
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.employeesAPI.testcases.TC005_DELETE_Employee_Record" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
